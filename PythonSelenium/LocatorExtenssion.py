@@ -1,0 +1,15 @@
+from selenium import webdriver
+
+driver = webdriver.Chrome(executable_path="D:\\Selenium\\Driver\\chromedriver.exe")
+driver.get("https://login.salesforce.com/?locale=eu")
+driver.maximize_window()
+driver.find_element_by_css_selector("#username").send_keys("kant.dos@gmail.com")
+driver.find_element_by_css_selector(".password").send_keys("Hurka@08")
+driver.find_element_by_css_selector(".password").clear()
+driver.find_element_by_link_text("Forgot Your Password?").click()
+driver.find_element_by_xpath("//a[text()='Cancel']").click()
+driver.implicitly_wait(2)
+print(driver.find_element_by_xpath("//form[@name='login']/div[1]/label").text)
+driver.implicitly_wait(2)
+print(driver.find_element_by_css_selector("form[name='login'] label:nth-child(3)").text)
+driver.close()
