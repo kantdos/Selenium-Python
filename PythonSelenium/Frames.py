@@ -10,3 +10,4 @@ driver.find_element_by_css_selector("#tinymce").clear()
 driver.find_element_by_css_selector("#tinymce").send_keys("My Edit")
 driver.switch_to.default_content()
 print(driver.find_element_by_tag_name("h3").text)
+
