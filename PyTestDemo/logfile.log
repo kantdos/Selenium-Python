@@ -1,0 +1,39 @@
+2020-10-03 20:36:55,763 : INFO : pythonProject.PyTestDemo.test_logging : Information! statement
+2020-10-03 20:36:55,763 : WARNING : pythonProject.PyTestDemo.test_logging : Warning! - Something went wrong
+2020-10-03 20:36:55,763 : ERROR : pythonProject.PyTestDemo.test_logging : Major error! Assertions failed
+2020-10-03 20:36:55,763 : CRITICAL : pythonProject.PyTestDemo.test_logging : Critical Error
+2020-10-03 20:38:22,494 : DEBUG : pythonProject.PyTestDemo.test_logging : A debug statement is executed
+2020-10-03 20:38:22,495 : INFO : pythonProject.PyTestDemo.test_logging : Information! statement
+2020-10-03 20:38:22,495 : WARNING : pythonProject.PyTestDemo.test_logging : Warning! - Something went wrong
+2020-10-03 20:38:22,496 : ERROR : pythonProject.PyTestDemo.test_logging : Major error! Assertions failed
+2020-10-03 20:38:22,497 : CRITICAL : pythonProject.PyTestDemo.test_logging : Critical Error
+2020-10-03 20:39:55,920 : CRITICAL : pythonProject.PyTestDemo.test_logging : Critical Error
+2020-10-03 20:52:18,852 : INFO : PyTestDemo.BaseClass : None
+2020-10-03 20:52:18,855 : INFO : PyTestDemo.BaseClass : None
+2020-10-03 20:52:18,856 : INFO : PyTestDemo.BaseClass : None
+2020-10-03 20:54:50,123 : INFO : PyTestDemo.BaseClass : Ravi
+2020-10-03 20:54:50,123 : INFO : PyTestDemo.BaseClass : Kant
+2020-10-03 20:54:50,123 : INFO : PyTestDemo.BaseClass : kant.dos@gmail.com
+2020-10-03 20:58:28,332 : INFO : PyTestDemo.BaseClass : Ravi
+2020-10-03 20:58:28,333 : INFO : PyTestDemo.BaseClass : Kant
+2020-10-03 20:58:28,334 : INFO : PyTestDemo.BaseClass : kant.dos@gmail.com
+2020-10-03 21:01:50,074 : INFO : test_editProfile : Ravi
+2020-10-03 21:01:50,075 : INFO : test_editProfile : Kant
+2020-10-03 21:01:50,076 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 21:24:42,241 : INFO : test_editProfile : Ravi
+2020-10-03 21:24:42,241 : INFO : test_editProfile : Kant
+2020-10-03 21:24:42,241 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 21:31:46,260 : INFO : test_editProfile : Ravi
+2020-10-03 21:31:46,260 : INFO : test_editProfile : Kant
+2020-10-03 21:31:46,260 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 21:47:56,353 : INFO : test_editProfile : Ravi
+2020-10-03 21:47:56,353 : INFO : test_editProfile : Kant
+2020-10-03 21:47:56,353 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 22:01:26,872 : INFO : test_editProfile : Ravi
+2020-10-03 22:01:26,873 : INFO : test_editProfile : Kant
+2020-10-03 22:01:26,873 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 22:01:26,910 : CRITICAL : PyTestDemo.test_logging : Critical Error
+2020-10-03 22:03:06,354 : INFO : test_editProfile : Ravi
+2020-10-03 22:03:06,355 : INFO : test_editProfile : Kant
+2020-10-03 22:03:06,355 : INFO : test_editProfile : kant.dos@gmail.com
+2020-10-03 22:03:06,388 : CRITICAL : PyTestDemo.test_logging : Critical Error
